@@ -1,12 +1,15 @@
 # Sequelize-Auto
 
-[![Build Status](http://img.shields.io/travis/sequelize/sequelize-auto/master.svg)](https://travis-ci.org/sequelize/sequelize-auto) [![Dependency Status](https://david-dm.org/sequelize/sequelize-auto.svg)](https://david-dm.org/sequelize/sequelize-auto) [![Code Climate](https://codeclimate.com/github/sequelize/sequelize-auto/badges/gpa.svg)](https://codeclimate.com/github/sequelize/sequelize-auto) [![Test Coverage](https://codeclimate.com/github/sequelize/sequelize-auto/badges/coverage.svg)](https://codeclimate.com/github/sequelize/sequelize-auto/coverage)
+A fork from [sequlize-auto](https://github.com/sequelize/sequelize-auto), but:
+
+- add `-C` option
+- not covert `tinyint(1)` columns into `BOOLEAN`
 
 Automatically generate models for [SequelizeJS](https://github.com/sequelize/sequelize) via the command line.
 
 ## Install
 
-    npm install -g sequelize-auto
+    npm install -g sequelize-auto-plus
 
 ## Prerequisites
 

@@ -1,6 +1,6 @@
 {
-  "name": "sequelize-auto",
-  "version": "0.4.13",
+  "name": "sequelize-auto-plus",
+  "version": "0.5.0",
   "description": "Automatically generate bare sequelize models from your database.",
   "main": "index",
   "keywords": [
@@ -15,10 +15,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sequelize/sequelize-auto.git"
+    "url": "https://github.com/sjfkai/sequelize-auto-plus"
   },
   "bugs": {
-    "url": "https://github.com/sequelize/sequelize-auto/issues"
+    "url": "https://github.com/sjfkai/sequelize-auto-plus/issues"
   },
   "nyc": {
     "exclude": [
@@ -44,7 +44,7 @@
   "engines": {
     "node": ">=0.10"
   },
-  "author": "Daniel Durante <me@danieldurante.com>",
+  "author": "sjfkai <sjfkai@163.com>",
   "license": "MIT",
   "dependencies": {
     "async": "^1.2.1",
